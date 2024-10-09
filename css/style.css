@@ -24,7 +24,7 @@ img {
 
     /* DEBUG  */
     border: 1 px solid black;
-    height: 400px;
+    /* height: 400px; */
 }
 
 /* HEADER  */
@@ -93,7 +93,7 @@ img {
 
 /* SECONDA SEZIONE  */
 .seconda-sezione {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 .sottosezione1 {
@@ -102,6 +102,19 @@ img {
     /* DEBUG  */
     background-color: brown;
     height: 100px;
+}
+
+.sottosezione2 {
+  margin-top: 20px;
+}
+
+.team {
+    border: 1px solid black;
+}
+
+
+.enterprise {
+    border: 1px solid black;
 }
 
 .row2 {
@@ -120,13 +133,14 @@ img {
    /* FINE SECONDA SEZIONE  */
 
    /* TERZA SEZIONE  */
-   .terza-sezione {
+   /* .terza-sezione {
     padding: 40px 0;
-   }
+   } */
 
    .row3 {
     display: flex;
     justify-content: space-between;
+    /* margin-top: 60px; */
    }
 
 
@@ -153,9 +167,11 @@ img {
 }
 /* FINE QUARTA SEZIONE  */
 
-/* FOOTER  */
-/* .footer {
-    background-color: rgb(0, 0, 0);
+/* FOOTER   */
+.footer {
+    background-color: black;
+    margin-top: 10px;
+
 }
 
 .row-footer {
@@ -163,7 +179,17 @@ img {
     justify-content: space-between;
     padding: 10px;
     align-items: center;
-} */
+}
+
+.col-20 {
+    border: 1px solid white;
+    /* DEBUG  */
+    background-color: grey;
+}
+
+.paragrafo-footer {
+    color: white;
+}
 
 
 
