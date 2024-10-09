@@ -120,15 +120,16 @@ img {
 .row2 {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .col2 {
-   width: calc(85% / 3);
+   width: calc(100% / 3);
    border: 1px solid grey;
-   min-height: 350px;
    display: flex;
    /* DEBUG  */
    background-color: pink;
+   min-height: 350px;
    }
    /* FINE SECONDA SEZIONE  */
 
@@ -171,6 +172,8 @@ img {
 .footer {
     background-color: black;
     margin-top: 10px;
+    /* DEBUG  */
+    height: 300px;
 
 }
 
