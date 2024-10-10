@@ -48,6 +48,10 @@ body {
     padding: 30px 0;
 }
 
+.margin-10 {
+    margin: 10px 0 10px 0;
+}
+
 /* HEADER  */
 .header {
     padding: 10px;
@@ -146,7 +150,6 @@ a.button {
     border: 1px solid gray;
     margin-bottom: 20px;
     /* DEBUG  */
-    background-color: brown;
     height: 100px;
 }
 
@@ -177,9 +180,6 @@ a.button {
     align-items: center;
 }
 
-/* .enterprise {
-   border: 1px solid grey;
-} */
 
 .title-entreprise {
     padding: 20px 0 10px 10px;
