@@ -8,11 +8,13 @@
     background-color: var(--sky-color);
     color: rgb(255, 255, 255);
     padding: 5px 10px;
+    text-decoration: none;
 }
 
 .button:hover {
     background-color: rgb(97, 194, 233);
 }
+
 
 /* ############# */
 
@@ -90,29 +92,43 @@ a.button {
     padding: 40px 0;
  }
 
+ .primo-titolo {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+ }
+
+ .paragrafo-1 {
+    color: var(--grey-color);
+    padding-bottom: 30px;
+ }
+
+ .span-1 {
+    color: var(--grey-color);
+    display: flex;
+    margin-top: 30px;
+ }
+
  .row1 {
     display: flex;
     justify-content: space-around;
  }
 
  .col-40 {
-    display: flex;
+    /* display: flex; */
     width: 40%;
     margin: 20px auto;
-    /* DEBUG  */
-    height: 200px;
-    background-color: green;
-    border: 1px solid black;
 }
 
 .col-60 {
     display: flex;
     width: 60%;
     margin: 20px auto;
-    /* DEBUG  */
-    height: 200px;
-    background-color: aqua;
-    border: 1px solid black;
+ }
+
+ .icona-1 {
+    font-size: 40px;
+    margin-top: 50px;
  }
 /* FINE PRIMA SEZIONE  */
 
@@ -160,15 +176,25 @@ a.button {
    /* FINE SECONDA SEZIONE  */
 
    /* TERZA SEZIONE  */
-   /* .terza-sezione {
-    padding: 40px 0;
-   } */
+   .testo-3 {
+    margin: 40px 0 0 30px;
+   }
+
+   .pd {
+    margin-top: 20px;
+   }
 
    .row3 {
     display: flex;
     justify-content: space-between;
-    /* margin-top: 60px; */
    }
+
+   .bottone-bianco {
+    border: 1px solid black;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: var(--grey-color);
+  }
 
 
    /* QUARTA SEZIONE  */
@@ -199,7 +225,7 @@ a.button {
 }
 
 .sottotitolo-4 {
-    font-size: 50px;;
+    font-size: 30px;
 }
 
 .link-4 {
