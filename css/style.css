@@ -1,12 +1,17 @@
 /* UTILITY  */
 :root {
     --sky-color: #3080fe;
+    --grey-color: #1d1d1d;
 }
 
 .button {
     background-color: var(--sky-color);
     color: rgb(255, 255, 255);
     padding: 5px 10px;
+}
+
+.button:hover {
+    background-color: rgb(97, 194, 233);
 }
 
 /* ############# */
@@ -33,12 +38,12 @@ body {
 
 .container2 {
     width: 70%;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
+}
 
-    /* DEBUG  */
-    border: 1 px solid black;
-    /* height: 400px; */
+.section {
+    padding: 30px 0;
 }
 
 /* HEADER  */
@@ -53,9 +58,6 @@ body {
     align-items: center;
 }
 
-/* .col-25 {
-    display: flex;
-} */
 .nav-list {
     list-style: none;
     display: flex;
@@ -64,7 +66,7 @@ body {
 
 .header a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: var(--grey-color);
 }
 
 .icona-dropbox {
@@ -179,9 +181,17 @@ a.button {
 
   .col4 {
     width: calc(95% / 3);
-    background-color: rgb(169, 169, 40);
-    min-height: 200px;
-    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.titolo-4 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.paragrafo-4 {
+    margin-top: 20px;
+    color: var(--grey-color);
 }
 
 .ultimo-main {
@@ -197,7 +207,6 @@ a.button {
     background-color: black;
     margin-top: 10px;
     padding-top: 20px;
-    height: 300px;
 }
 
 .row-footer {
@@ -231,7 +240,7 @@ a.button {
 }
 
 .language {
-    margin-top: 30px;
+    padding: 30px 0;
     display: flex;
     align-items: center;
     gap: 5px;
