@@ -138,6 +138,10 @@ a.button {
     padding: 20px 0;
 }
 
+.cerchio {
+    padding-right: 20px;
+}
+
 .sottosezione1 {
     border: 1px solid gray;
     margin-bottom: 20px;
@@ -151,12 +155,39 @@ a.button {
 }
 
 .team {
-    border: 1px solid black;
+    border: 1px solid rgb(128, 128, 128);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
 
+.col-70 {
+    width: 70%;
+}
 
-.enterprise {
-    border: 1px solid black;
+.col-30 {
+    width: 30%;
+   
+}
+
+.row-entreprise {
+    display: flex;
+    border: 1px solid rgb(128, 128, 128);
+    align-items: center;
+}
+
+/* .enterprise {
+   border: 1px solid grey;
+} */
+
+.title-entreprise {
+    padding: 20px 0 10px 10px;
+}
+
+.p-entreprise {
+    color: var(--grey-color);
+    padding: 30px 0 10px 10px;
 }
 
 .row2 {
